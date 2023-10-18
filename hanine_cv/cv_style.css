@@ -1,0 +1,273 @@
+/* le corps du code */
+body { 
+    background-color: hsl(210, 100%, 100%); 
+    margin: 10%;
+}
+
+/* conteneur flex du corp de la page */
+.flex-container-body{
+    display: flex; flex-direction:column; 
+    display: flex; row-gap: 15px;
+    display:flex; justify-content: space-between;
+}
+
+/*fconteneur flex du du haut de la apage*/
+#premier-header{
+    color: #275662;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container-haut{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around; 
+    column-gap: 10%;
+}
+
+.flex-container-photo{
+    display: flex; 
+    justify-content:end;
+}
+
+img {
+    width : 25vw;
+    height : 25vh;
+    max-width : 180px;
+    max-height : 190px;
+    }
+.flex-container-dr-photo {
+    display:flex; 
+    justify-content:flex-start; 
+    flex-direction: column;
+}
+
+nav {
+    color:black; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section aside et main */
+
+/* grille émoticones contacts*/
+.grid-container-emoticone {
+    display: grid;
+    gap: 5px;
+    padding:5px;
+}
+.grid-item-1 {
+    grid-column: 1 ;
+    grid-row: 1;
+    align-items: start;
+  }
+.grid-item-2 {
+    grid-column: 1;
+    grid-row: 2;
+    align-items: start;
+  }
+.grid-item-3 {
+    grid-column: 2;
+    grid-row: 1;
+    align-items: start;
+  }
+
+.grid-item-4 {
+    grid-column: 2;
+    grid-row: 2;
+    align-items: start;
+  }
+/* fin grilles contact */
+
+.flex-container-chrg{
+    display: flex; 
+    justify-content:center;
+    align-items: start;
+    font-size: larger;
+    color:#2c6877 ;
+}
+
+#chrgep{
+    text-align: center; 
+    font-style: italic; 
+    color: #3D6772; 
+    font-weight: bold;
+}
+
+.flex-container-aside-main{ 
+    display: flex; 
+    justify-content:space-evenly;
+    display: flex;
+    column-gap: 7%;
+    margin-left: 30px;
+}
+
+aside {
+    color:black; 
+    text-align:left; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+
+main{
+    color:black; 
+    text-align:left; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+
+.flex-container-main {
+    display: flex; 
+    justify-content: flex-end; 
+    flex-direction: column; 
+    margin :-2%;
+}
+
+.flex-container-aside {
+    display: flex; 
+    justify-content: flex-end; 
+    flex-direction: column;
+    margin: 10%;
+}
+
+#expériences{
+    color:black; 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-experiences{
+    background-color: #cdeeefd5;
+    height: 20px;
+    margin-top: -30px;
+}
+
+.calendrier {
+    display: flex;
+    justify-content:space-around;
+}
+
+.icon-claendrier {
+    color:#9bc9ca;
+}
+
+/* section formation compétence savoir et outils*/
+#formation{
+    color:black; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-formation {
+    background-color: #347D8F;
+    height: 20px;
+    margin-top: -30px;
+}
+
+#compétences{
+    color:black; 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-competences {
+    background-color: #37A3A6;
+    height: 20px;
+    margin-top: -30px;
+}
+
+#savoir-etre{
+    color:black; 
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bg-savoir-etre{
+    background-color: #71DEE1;
+    height: 20px;
+    margin-top: -30px;
+}
+
+#outil-logiciel{
+    color:black; 
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bg-logiciel {
+    background-color: #ACFCFF;
+    height: 20px;
+    margin-top: -30px;
+}
+
+.tous-icon { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.word-icon{
+    margin: 0;
+}
+
+.icon-outil {
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.fx-icon-1 {color: #277386;}
+.fx-icon-2{ color: #DAFAFF;}
+
+.fx-icon{
+    display: flex; 
+    flex-direction: row;
+    color: #287486;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+/* généraux*/
+a {
+    color:black; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:black; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color: black; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color:#1D4D5A; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color:#B3DCDD; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+    color:#347D8F; 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lieu-formation{
+    color:#84C6C8; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic; 
+    font-weight: 200;
+}
